@@ -1,6 +1,6 @@
 #gulp-download
 
-[Request](https://github.com/mikeal/request) wrapper for gulp, allowing you to download files via http/http.
+[Request](https://github.com/mikeal/request) wrapper for gulp, allowing you to download files via http/https.
 
 ##Installation
 
