@@ -1,6 +1,6 @@
 {
   "name": "gulp-download",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Gulp plugin for downloading files via http/https.",
   "license": "MIT",
   "author":"Michael Ostermann <metrime@icloud.com>",
@@ -13,8 +13,9 @@
   ],
   "dependencies":{
     "gulp-util":"latest",
-    "through2":"latest",
-    "request":"latest"
+    "through":"latest",
+    "request":"latest",
+    "request-progress":"latest"
   },
   "main":"index.js"
 }
