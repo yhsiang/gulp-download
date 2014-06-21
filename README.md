@@ -13,6 +13,5 @@
 	download(url)
 		.pipe(gulp.dest("downloads/"));
 		
-Url: Either a url string or an array of url strings.
-
+Url: Either a url string or an array of url strings or object with keys: file, url or array of these objects. The file key allows you to define the destination file name and the url is the dowonload url.
 
