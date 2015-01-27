@@ -11,14 +11,14 @@ module.exports = function(urls){
 	});
 
 
-	var files = typeof urls === 'string' ? [urls] : urls;
+	var files = Object.prototype.toString.call(urls) !== '[object Array]' ? [urls] : urls;
 	var downloadCount = 0;
 
 
 	function download(url){
 		var fileName,
 			firstLog = true;
-		
+
 		if (typeof url === "object") {
 			fileName = url.file;
 			url = url.url;
